@@ -1,0 +1,15 @@
+1. Overview
+This repository serves as the sovereign-first, POPIA-compliant retail orchestration framework, engineered for the South African market. It is designed to provide auditable, human-supervised intelligence for retail operations while maintaining strict adherence to regional data protection mandates.
+2. POPIA Compliance Statement
+Our commitment to the Protection of Personal Information Act (POPIA) is foundational:
+Purpose Limitation: Personal information is collected only for specified, explicit, and legitimate purposes.
+Data Minimization: We restrict data collection to the minimum required for the transaction.
+Data Residency: All sensitive customer data is stored within secured, South African-based infrastructure.
+Transparency: All automated processing is subject to human-in-the-loop oversight to ensure accountability.
+3. Architecture Overview
+The system utilizes a 63-agent hierarchy built on the OpenClaw environment. Key components include:
+Orchestration Nodes: Managing query routing and task delegation.
+Compliance Nodes: Real-time monitoring of regulatory alignment.
+Integrator Nodes: Secure bridges to local inventory and payment gateways.
+4. License
+This project is licensed under the MIT License, ensuring transparency and community-driven development for our core infrastructure, while keeping the sovereign intelligence layer proprietary.
