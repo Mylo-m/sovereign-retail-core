@@ -1,1 +1,43 @@
+# --- Sovereignty Protection (Keep Local Configs Private) ---
+.env
+.secrets
+secrets.json
+config/local/
+*.log
+hardware_registry.yaml
+*.pem
+*.key
+
+# --- Python / AI Environment ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+.venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- Build & Distribution ---
+dist/
+build/
+*.egg-info/
+*.egg
+*.whl
+
+# --- System / IDE ---
+.DS_Store
+.vscode/
+.idea/
+.project
+.pydevproject
+
+# --- Data & Large Files ---
+data/
+*.db
+*.sqlite3
+*.csv
+*.parquet
+
 
